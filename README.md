@@ -6,4 +6,5 @@ Math behinds Python method: we using single, multiple linear regression.
 - Multiple linear regression:
 - Mean squared Error: MSE shows how closed the predicted value are to the actual value and it more sensitive to outliers
 - R^2 score: explain how well the regression model fit the data. It less sensitive than MSE
+We can use the model to make prediction 
 
