@@ -2,7 +2,7 @@
 This project involves using numerical methods in Python. Our team aimed to predict the selling price of specific products.
 **Difficulties**
 One of the main challenges was finding appropriate data. We found a dataset on Kaggle titled Amazon Sales Dataset and selected a product with varying prices. Initially, we aimed to find data on familiar products, but we did not have enough time to gather the specific data we wanted
-Daata on Kaggle: <[Amazone sales dataset](https://www.kaggle.com/code/mehakiftikhar/amazon-sales-dataset-eda/input)> 
+Data on Kaggle: <[Amazone sales dataset](https://www.kaggle.com/code/mehakiftikhar/amazon-sales-dataset-eda/input)> 
 
 **Math behinds Python method**
 We used single and multiple linear regression for our predictions.
