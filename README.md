@@ -1,10 +1,15 @@
 # Selling-Price-Prediction
-This is a project using Numerical Method in Python. Our team wanted to predict the selling price of a specific products.
-Difficulties: Finding data. We find data on Kaggle: <[Amazone sales dataset](https://www.kaggle.com/code/mehakiftikhar/amazon-sales-dataset-eda/input)> and take one product which have the variety price. We aimed to find data about a familiar products. However, we do not have time to find the data that we want.
-Math behinds Python method: we using single, multiple linear regression. 
-- Simple linear regression:    Simple linear regression aims to find a linear relationship to describe the correlation between an independent and dependent variable.
-- Multiple linear regression:
-- Mean squared Error: MSE shows how closed the predicted value are to the actual value and it more sensitive to outliers
-- R^2 score: explain how well the regression model fit the data. It less sensitive than MSE
-We can use the model to make prediction 
+This project involves using numerical methods in Python. Our team aimed to predict the selling price of specific products.
+**Difficulties**
+One of the main challenges was finding appropriate data. We found a dataset on Kaggle titled Amazon Sales Dataset and selected a product with varying prices. Initially, we aimed to find data on familiar products, but we did not have enough time to gather the specific data we wanted
+Daata on Kaggle: <[Amazone sales dataset](https://www.kaggle.com/code/mehakiftikhar/amazon-sales-dataset-eda/input)> 
+
+**Math behinds Python method**
+We used single and multiple linear regression for our predictions.
+- Simple Linear Regression: Simple linear regression finds a linear relationship that describes the correlation between an independent and a dependent variable.
+- Multiple Linear Regression: This extends linear regression to involve multiple independent variables.
+  
+**Evaluation Metrics**
+- Mean Squared Error (MSE): MSE shows how close the predicted values are to the actual values. It is sensitive to outliers
+- R² Score: The R² score explains how well the regression model fits the data. It is less sensitive to outliers than MSE. We can use the model for making predictions. 
 
