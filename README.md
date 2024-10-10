@@ -15,3 +15,6 @@ We used single and multiple linear regression for our predictions.
 - Mean Squared Error (MSE): MSE shows how close the predicted values are to the actual values. It is sensitive to outliers
 - R² Score: The R² score explains how well the regression model fits the data. It is less sensitive to outliers than MSE. We can use the model for making predictions. 
 
+**Compare 2 ways of calculation:**
+- Case 1: Predicting Total Price (Unit Price × Quantity):Mean Squared Error (MSE): 935.55 ,R² Score: 0.9684
+- Case 2: Predicting Unit Price:  Mean Squared Error (MSE): 2.294549977092901e-28, R² Score: 1.0 (perfect score) --> There is overfitting
