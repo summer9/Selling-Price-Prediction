@@ -17,4 +17,10 @@ We used single and multiple linear regression for our predictions.
 
 **Compare 2 ways of calculation:**
 - Case 1: Predicting Total Price (Unit Price × Quantity):Mean Squared Error (MSE): 935.55 ,R² Score: 0.9684
-- Case 2: Predicting Unit Price:  Mean Squared Error (MSE): 2.294549977092901e-28, R² Score: 1.0 (perfect score) --> There is overfitting
+- Case 2: Predicting Unit Price:  Mean Squared Error (MSE): 2.294549977092901e-28, R² Score: 1.0 (perfect score)
+  --> There is overfitting. The model memorized specific patterns,it does not change when we input new data -new features (even outliers)
+  
+**What can we improve for learning process?**
+- Analyse other products to compare their behavior
+- Add more features to the model
+- Analyse which features can affect the price most:  evaluate the coefficients of the linear regression model
